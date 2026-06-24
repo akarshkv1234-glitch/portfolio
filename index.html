@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AKARSH | Web Desiigning &amp; Development</title>
+  <meta name="description" content="Akarsh KV - Web Developer Portfolio. Creating responsive, modern, and user-friendly websites.">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Preload Hero Image for LCP -->
+  <link rel="preload" as="image" href="assets/img/WhatsApp Image 2026-06-24 at 9.01.37 AM profil.jpeg">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS (Commented out for Performance score > 90) -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0563bb',
+          }
+        }
+      }
+    }
+  </script> -->
+
+  <!-- Preload Critical CSS -->
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="assets/css/main.css" as="style">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Deferred Non-Critical CSS -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="assets/vendor/aos/aos.css" rel="stylesheet"></noscript>
+  
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"></noscript>
+  
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"></noscript>
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list" role="button" aria-label="Toggle navigation"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://github.com/akarshkv1234-glitch" class="github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/akarsh_k_v7?igsh=MWJ3ZHgzem55d3pheQ==" class="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/akarsh-kv" class="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Port<span class="accent-text">Folio</span></h1>
+                <h2>AKARSH</h2>
+                <p class="lead">I'm a <span class="typed" data-typed-items="Web Developer, Trader"></span></p>
+                <p class="description">Creating responsive, modern, and user-friendly websites with HTML, CSS,
+                  JavaScript, and Bootstrap. Let's build your next digital experience.</p>
+
+                <div class="hero-actions">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="social-links">
+                  <a href="https://github.com/akarshkv1234-glitch" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/akarsh-kv" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/akarsh_k_v7?igsh=MWJ3ZHgzem55d3pheQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/WhatsApp Image 2026-06-24 at 9.01.37 AM profil.jpeg" alt="Profile" class="profile-image" fetchpriority="high">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/WhatsApp Image 2026-06-24 at 9.01.37 AM profil.jpeg" alt="Profile Image" class="img-fluid" loading="lazy">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h4>AKARSH</h4>
+                <p class="profession">Web Developer</p>
+
+                <div class="contact-links">
+                  <a href="mailto:akarshkv1234@gmail.com" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    akarshkv1234@gmail.com
+                  </a>
+                  <a href="tel:+919995976505" class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    +91 9995976505
+                  </a>
+                  <a href="#" class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    KANNUR
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>Passionate About Building Modern Websites</h2>
+              </div>
+
+              <div class="description">
+                <p>Passionate about creating modern, responsive, and user-friendly websites. I combine creative design
+                  with efficient development to build digital experiences that help businesses and individuals achieve
+                  their goals.</p>
+
+                <p>I enjoy solving problems through code and building websites that are responsive, accessible, and
+                  visually appealing. Every project is an opportunity to learn, innovate, and deliver quality results.
+                </p>
+              </div>
+
+
+              <div class="cta-section">
+
+                <a href="#contact" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>A collection of the technologies, tools, and skills I use to build responsive, modern, and user-friendly
+          websites.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Front-end Development</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>HTML</h4>
+                    <span class="skill-percentage">83%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                  </div>
+                  <div class="skill-tooltip">Strong understanding of semantic HTML5, responsive layouts, and clean,
+                    well-structured web development.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>CSS</h4>
+                    <span class="skill-percentage">81%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                  </div>
+                  <div class="skill-tooltip">Advanced knowledge of CSS3, Flexbox, Grid, animations, and responsive
+                    design techniques.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>JavaScript</h4>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                  </div>
+                  <div class="skill-tooltip">Proficient in JavaScript for creating interactive, dynamic, and
+                    user-friendly web applications.
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Frontend Skills -->
+          </div>
+
+        </div>
+
+    </div></section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>An overview of my skills, education, and project experience, showcasing my growth and expertise in web
+          development.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/WhatsApp Image 2026-06-24 at 9.01.37 AM profil.jpeg" alt="Profile" class="img-fluid rounded" loading="lazy">
+              </div>
+
+              <h3>Professional Summary</h3>
+              <p>Aspiring Web Developer with a passion for designing and developing engaging web experiences.
+                Experienced in building responsive websites and eager to contribute creative and technical skills to
+                innovative projects.</p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt"></i> kerala,kannur,670568</li>
+                <li><i class="bi bi-envelope"></i> akarshkv1234@gmail.com</li>
+                <li><i class="bi bi-phone"></i> +91 9995976505</li>
+                <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/akarsh-kv" target="_blank" style="color: inherit;">www.linkedin.com/in/akarsh-kv</a></li>
+              </ul>
+
+              <div class="skills-animation mt-4">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Web Development</span>
+                    <span>89%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Aspiring Full Stack Developer</h4>
+                <h5>2026 - Present</h5>
+
+                <ul>
+                  <li>Built user-friendly interfaces using HTML, CSS, Bootstrap, and JavaScript.</li>
+                  <li>Developed 4 responsive web pages using HTML, CSS, Bootstrap, and JavaScript.</li>
+                  <li>Created mobile-friendly and user-friendly website layouts.</li>
+                  <li>Improved front-end development skills through hands-on project development.</li>
+                </ul>
+              </div>
+
+
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
+
+              <div class="resume-item">
+                <h4>Higher Secondary</h4>
+                <h5>2022 - 2024</h5>
+                <p class="company"><i class="bi bi-building"></i>GVHSS Sreekandapuram</p>
+                <p>Completed Higher Secondary Education in the Commerce stream, gaining knowledge in Accounting,
+                  Business Studies, Economics, and Commerce-related subjects.</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">All Projects</li>
+                  <li data-filter=".filter-photography">Ecommerce</li>
+                  <li data-filter=".filter-design">Entertainment</li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-9">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/Screenshot 2026-06-19 120638.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Ecommerce</span>
+                        <h4>Amazon Homepage</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/Screenshot 2026-06-19 120638.png" class="glightbox" title="Amazon Homepage"><i class="bi bi-plus-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/NET.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Entertainment</span>
+                        <h4>NETFLIX</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/NET.png" class="glightbox" title="NETFLIX"><i class="bi bi-plus-lg"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+              </div><!-- End Portfolio Container -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Let's connect! Feel free to reach out for project discussions, collaborations, or any questions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+              </p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p> kerala</p>
+                  <p>kannur,670568</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p> +91 9995976505</p>
+                  <p> +91 7907998758</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p> akarshkv1234@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+              <p>Have a project or opportunity? Let's connect and make it happen.
+              </p>
+
+              <form id="contact-form" action="https://formspree.io/f/xykaryza" method="post">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" aria-label="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" aria-label="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" aria-label="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" aria-label="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button id="contact-submit-btn" type="submit" class="btn">Send Message</button>
+                    <div id="contact-form-status" class="mt-3 fw-bold"></div>
+                  </div>
+
+                </div>
+              </form>
+
+              <script>
+                var form = document.getElementById("contact-form");
+                var statusContainer = document.getElementById("contact-form-status");
+                var submitBtn = document.getElementById("contact-submit-btn");
+
+                async function handleSubmit(event) {
+                  event.preventDefault();
+
+                  var data = new FormData(event.target);
+                  var isValid = true;
+
+                  // Validation: Check if any field is empty or just spaces
+                  for (var [key, value] of data.entries()) {
+                    if (typeof value === 'string' && value.trim() === '') {
+                      var input = form.elements[key];
+                      if (input) {
+                        input.setCustomValidity("Please enter valid text (not just spaces).");
+                        input.reportValidity();
+                        input.addEventListener('input', function() {
+                          this.setCustomValidity('');
+                        }, { once: true });
+                      }
+                      isValid = false;
+                      break;
+                    }
+                  }
+
+                  if (!isValid) return;
+
+                  statusContainer.innerHTML = "Sending...";
+                  statusContainer.className = "mt-3 fw-bold text-info";
+                  submitBtn.disabled = true;
+
+                  fetch(event.target.action, {
+                    method: form.method,
+                    body: data,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                  }).then(response => {
+                    if (response.ok) {
+                      statusContainer.innerHTML = "Your message has been sent. Thank you!";
+                      statusContainer.className = "mt-3 fw-bold text-success";
+                      form.reset();
+                    } else {
+                      response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                          statusContainer.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+                        } else {
+                          statusContainer.innerHTML = "Oops! There was a problem submitting your form";
+                        }
+                        statusContainer.className = "mt-3 fw-bold text-danger";
+                      })
+                    }
+                  }).catch(error => {
+                    statusContainer.innerHTML = "Oops! There was a problem submitting your form";
+                    statusContainer.className = "mt-3 fw-bold text-danger";
+                  }).finally(() => {
+                    submitBtn.disabled = false;
+                  });
+                }
+                form.addEventListener("submit", handleSubmit);
+              </script>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/php-email-form/validate.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/typed.js/typed.umd.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
