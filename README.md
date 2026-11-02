@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 [![Live Site](https://img.shields.io/badge/Live_Site-Visit-2EA44F?style=flat-square&logo=googlechrome&logoColor=white)](https://akarshkv1234-glitch.github.io/portfolio/)
+[![Deploy](https://github.com/akarshkv1234-glitch/portfolio/actions/workflows/static.yml/badge.svg)](https://github.com/akarshkv1234-glitch/portfolio/actions/workflows/static.yml)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
